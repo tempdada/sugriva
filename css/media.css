@@ -1,0 +1,363 @@
+@media screen and (max-width:1920) {
+    .first-sec {
+        /* height: 81vh; */
+
+    }
+    .contact {
+        height: 55rem;
+    }
+    .big-font {
+       
+        font-size: 2.7rem;
+    }
+
+    .small-font {
+        font-size: 2.5rem;
+        
+    }
+    
+    .style-btn {
+        font-size: 1rem;
+        padding: 5px 3px;
+        border-radius: 6px;
+        font-family: 'Inter', sans-serif;
+        background-color: transparent;
+        color: white;
+        border: 2px solid white;
+    }
+
+    .photo {
+        width: 10%;
+    }
+
+    .photo img {
+        border: 2px solid white;
+        border-radius: 200px;
+        height: 14rem;
+    }
+
+    .thumbnail img {
+        border: 2px solid black;
+        height: 18rem;
+        border-radius: 13px;
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width:812px) {
+    .nav-list li a {
+        font-size: 1.4rem;
+    }
+
+    #search {
+        width: 17rem;
+    }
+
+    .btn-search {
+        font-size: 1rem;
+        padding: 8px;
+    }
+    
+    .big-font {
+       
+        font-size: 2.5rem;
+        letter-spacing: 0px;
+        word-spacing: 0px;
+    }
+
+    .small-font {
+        font-size: 0.87rem;
+        letter-spacing: 0px;
+        word-spacing: 0px;
+    }
+
+    .style-btn {
+        font-size: 0.8rem;
+        padding: 3px 2px;
+        border-radius: 6px;
+        font-family: 'Inter', sans-serif;
+        background-color: transparent;
+        color: white;
+        border: 1.8px solid white;
+    }
+
+    .photo {
+        width: 10%;
+    }
+
+    .photo img {
+        border: 2px solid white;
+        border-radius: 200px;
+        height: 13rem;
+    }
+
+    .heading {
+        font-size: 3rem;
+    }
+
+    .second-sec1 {
+        height: 25rem;
+    }
+
+    .thumbnail img {
+        border: 2px solid black;
+        height: 15rem;
+        border-radius: 13px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .logo img {
+        height: 40px;
+    }
+
+    .nav-list li a {
+        padding: 4px 1.3rem;
+        font-size: 1.3rem;
+        text-decoration: none;
+        color: white;
+        font-family: 'Roboto Slab', serif;
+    }
+
+    #search {
+        width: 17rem;
+    }
+
+    .btn-search {
+        font-size: .9rem;
+        padding: 8px;
+    }
+    
+    .photo img {
+        height: 12rem;
+    }
+    .heading{
+        font-size: 2.6rem;
+    }
+
+}
+@media screen and (max-width:752px)
+ {
+    .big-font{
+        font-size:2.3rem ;
+    }
+    .small-font{
+        font-size:8px ;
+    }
+    #services {
+        margin-top: 3rem;
+    }
+ }
+ @media screen and (max-width:693px)
+ {
+    .logo {
+        margin-right: 1.6rem;
+        padding-left: 1.5rem;
+    }
+    nav-list li a {
+        padding: 4px 1.1rem;
+        font-size: 1rem;
+    }
+    .big-font{
+        font-size:2rem ;
+    }
+    .small-font{
+        font-size:7.5px ;
+    }
+    .photo img {
+        height: 10rem;
+    }
+    .heading{
+        font-size: 2.3rem;
+    }
+    .second-sec1 {
+        /* height: 20rem; */
+    }
+ }
+ @media screen and (max-width:622px)
+ {
+    .photo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+    .photo img{
+        align-self : center;
+    }
+    .box{
+        margin-top: 1.6rem;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 31.5rem;
+        transition: all 0.4s ease-out;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    .nav-list li{
+        margin-bottom: 2.3rem;
+    }
+    .nav-left-side {
+        justify-content: center;
+    }
+    .logo img{
+        margin: 12px 0px 15px 0px;
+    }
+    .sub-right-side {
+        margin-right: 0px;
+        height: 4rem;
+    }
+    .box {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .btn-search{
+        margin-top: 5px;
+    }
+    .h-nav{
+        height: 5rem;
+    }
+    .v-class
+    {
+        opacity: 0;
+    }
+    .item1{
+        flex-direction: column-reverse;
+    }
+    .photo img{
+        height: 7rem;
+        margin-top: 0rem;
+    }
+    .para {
+      
+        width: 73%;
+        text-align: center;
+        color: white;
+    }
+    .small-font{
+        font-weight: normal;
+    }
+    .style-btn {
+        font-size: 1.2rem;
+        padding: 3px 6px;
+    }  
+    #services{
+        margin-top: 1rem;
+    }
+    .second-sec1{
+        flex-direction: column-reverse;
+        margin-top:15rem ;
+    }
+    .second-sec1-for-media
+    {
+        margin-top: 6rem;
+    }
+    .mb-8
+    {
+        margin-bottom: 8rem;
+    }
+    .para1{
+            /* padding: 0px 0px; */
+            text-align: center;
+            padding: 1rem 0px 0rem 0px;
+        }
+    hr{
+        display: none;
+    }
+    .second-sec-tag{
+        font-size: 2.5rem;
+    }
+    form {
+        margin-top: 0rem;
+    }
+ }
+
+ @media screen and (max-width:426px){
+    .contact {
+        height: 50rem;
+    }
+ }
+
+
+
+
+ @media screen and (max-width:376px){
+    .item1{
+        margin-top: 0rem;
+
+    }
+    .contact {
+        height: 50rem;
+    }
+    .photo img{
+        height: 6.5rem;
+        margin-top: 0rem;
+    }
+    .para {
+      
+        width: 73%;
+        text-align: center;
+        color: white;
+    }
+    .big-font {
+       
+        font-size: 1.8rem;
+    }
+    #services{
+        padding-bottom:2rem ;
+    }
+    .sub-res {
+        width: 26%;
+        padding: 5px 2px;
+        font-size: 1.7rem;
+        border: 2px solid grey;
+        border-radius: 6px;
+    }
+    .second-sec-tag
+    {
+        font-size: 2.3rem;
+    }
+    .second-sec-subtag 
+    {
+        font-size: 8px;
+    }
+    .sub-res{
+        width: 30%;
+    }
+   
+ }
+
+
+
+
+ @media screen and (max-width:321px){
+    .big-font{
+        font-size: 1.7rem;
+    }
+    .para {
+        width: 80%;
+        text-align: center;
+    }
+    .style-btn
+    {
+        font-size: 1rem;
+    }
+    .second-sec1-for-media {
+        margin-top: 4rem;
+    }
+    .form {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .second-sec-tag 
+    {
+        font-size: 1.95rem;
+       
+    }
+ }

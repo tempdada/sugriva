@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" id="favi" href="img/logo.jpeg" type="image/x-icon">
+  <title>Wage gaps in the medical field.</title>
+</head>
+
+<body>
+  <nav class="navbar h-nav ">
+    <div class="nav-left-side v-class">
+      <ul class="nav-list">
+          <div class="logo btn">
+              <img src="img/logo.jpeg" alt="logo">
+          </div>
+          <li><a href="#home" class="scroll-link">HOME</a></li>
+          <li><a href="#services" class="scroll-link">______</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="main-sec background" id="home">
+    <div class="first-sec">
+      <div class="item1">
+        <div class="para">
+          <p class="big-font">Computer Education is Here</p>
+          <p class="mid-font">A computer is an electronic machine which can be used to solve a problem or
+            perform a certain function according to the instructions given to it. Today computers are used
+            almost everywhere. Computer education is the process of learning about or teaching about the
+            computers. It includes the basic knowledge of computer system, skills, ideas, and the basic
+            terminologies related to the computer system. It also includes the advantages and disadvantages
+            of computers, the potential of a computer system, how a computer can be used to solve different
+            problems of day to day life or how can a computer be programmed to solve the extreme problem.
+            Computer education has become an integral part of the twenty-first century. It has gained a lot
+            of importance in today’s life. Today, computers are used in almost every field. Therefore, it
+            has become necessary to learn about computers.</p>
+          <div class="buttons">
+            <button class="btn style-btn">Voice Over</button>
+            <button class="btn style-btn">Other videos</button>
+          </div>
+        </div>
+        <div class="photo">
+          <img src="img/logo.jpeg" alt="laptop">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="heading" id="services">
+    Our Services
+    <div class="line">
+      <hr id="hr">
+    </div>
+  </div>
+  </div>
+  <div class="second-sec1 second-sec1-for-media">
+    <div class="para1">
+      <p class="second-sec-tag big-font">Computer Fundamentals</p>
+      <p class="second-sec-subtag small-font">Computer is an electronic machine that takes an input, processes it
+        to producethe desired output. Every computer is a combination of hardware and software.The physical
+        components of a computer that can be seen and touched form thehardware. For example, CPU, monitor,
+        keyboard, printer etc., are hardware orperipheral devices. The input to a computer is given in the form
+        of instructions.These set of instructions that we give to the computer to perform a particular
+        taskconstitutes a program. Many such programs together form a software for thecomputer. Operating
+        system, Antivirus, MS Office, Computer games are allsoftware applications.Computer is an advanced
+        electronic device that takes raw data as an input from the user and processes it under the control of a
+        set of instructions (called program), produces a result (output), and saves it for future use.
+      </p>
+    </div>
+    <div class="thumbnail">
+      <img src="img/new-img2.jpg" class="img-odd" alt="laptop image">
+    </div>
+  </div>
+
+  <div class="second-sec1 sec-left">
+    <div class="para1">
+      <p class="second-sec-tag big-font">Hardware Components</p>
+      <p class="second-sec-subtag small-font">The hardware component is characterized by the use of electronic
+        devices, configured in an integral system, where the variables present in the march are recorded; the
+        mechanism used is based on a circuit based on inertial navigation, the variables presented in the march
+        are registered by means of a data acquisition card, where digital inputs are used; for this purpose the
+        acquisition card used is configured to acquire the signal and sent it to the computer via wireless
+        transmission; for this purpose a Bluetooth device is used, having the variables of the march in the
+        computer; the signal is configured so that it performs the movements in the game designed in Minecraft,
+        simulating a keyboard or mouse; that way it achieves the interaction between the game and the movements
+        of the human body.</p>
+      <div style="margin-top: 1rem;">
+        <input type="text" id="myInput" placeholder="Type your answer here" style="width: 300px; height: 40px;">
+        <button onclick="storeInput()">Submit</button>
+        <button id="wantHelpButton" style="display:none;">Want Help?</button> 
+        <script>
+          function storeInput() {
+            var inputValue = document.getElementById("myInput").value;
+            if (inputValue == "sigma"){
+              alert("right")
+            }
+            else{
+              alert("wrong, try again")
+              document.getElementById("wantHelpButton").style.display = "block";
+            }
+          }
+
+          document.getElementById("wantHelpButton").addEventListener("click", function() {
+            alert("HELP IS ON THE WAY");
+          });
+        </script>
+      </div>
+    </div>
+    <div class="thumbnail">
+      <img src="img/hardware1.jpg" class="img-even" alt="laptop image">
+    </div>
+  </div>
+
+  <div class="second-sec1">
+    <div class="para1">
+      <p class="second-sec-tag big-font">Cyber Security</p>
+      <p class="second-sec-subtag small-font">Cybersecurity is the practice of protecting critical systems and
+        sensitive information from digital attacks. Also known as information technology (IT) security,
+        cybersecurity measures are designed to combat threats against networked systems and applications,
+        whether those threats originate from inside or outside of an organization.
+
+
+
+        Security system complexity, created by disparate technologies and a lack of in-house expertise, can
+        amplify these costs. But organizations with a comprehensive cybersecurity strategy, governed by best
+        practices and automated using advanced analytics, artificial intelligence (AI) and machine learning, can
+        fight cyberthreats more effectively and reduce the lifecycle and impact of breaches when they occur.</p>
+    </div>
+    <div class="thumbnail">
+      <img src="img/new-img3.jpg" class="img-odd" alt="laptop image">
+    </div>
+  </div>
+
+
+  <div class="second-sec1 sec-left mb-8">
+    <div class="para1">
+      <p class="second-sec-tag big-font">Ethical Hacking</p>
+      <p class="second-sec-subtag small-font">Ethical hacking is also known as White hat Hacking or Penetration
+        Testing. Ethical hacking involves an authorized attempt to gain unauthorized access to a computer system
+        or data. Ethical hacking is used to improve the security of the systems and networks by fixing the
+        vulnerability found while testing.
+
+        Ethical hackers improve the security posture of an organization. Ethical hackers use the same tools,
+        tricks, and techniques that malicious hackers used, but with the permission of the authorized person.
+        The purpose of ethical hacking is to improve the security and to defend the systems from attacks by
+        malicious users.</p>
+    </div>
+    <div class="thumbnail">
+      <img src="img/new-img4.jpg" class="img-even" alt="laptop image">
+    </div>
+  </div>
+
+
+
+  <footer>
+    <div class="foot">
+      <p>Designed by Sriman A, Hannah M, Anantika N, John S, and Aadya K.</p>
+      <div class="icons">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="script.jsjs"></script>
+</body>
+
+</html>
